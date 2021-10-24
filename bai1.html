@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(158, 158, 255);
+        }
+        .container {
+            width: 20%;
+            height: 500px;
+            background-color: white;
+            border-radius: 12px;
+            margin: 5% 40%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        .about   {
+            text-align: center;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin: 5% 0;
+        }
+        .box {
+            width: 80%;
+            height: 50px;
+            background-color: wheat;
+            border-radius: 12px;
+            margin: 10%;
+        }
+        .box > ul > .line {
+
+            line-height: 50px;
+        }
+        .box > ul > li {
+            margin-left: 10px;
+            list-style: none;
+            float: left;
+        }
+        .box > ul > li ul {
+            list-style: none;
+            margin-top: 7px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        button {
+            width: 80%;
+            height: 30px;
+            background-color: blue;
+            color: white;
+            margin: 5% 10%;
+            border-radius: 10px;
+            line-height: 30px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><img src="https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/135319/Originals/dims.jpg" alt=""></div>
+        <div class="about">
+            <h1>Order Summary</h1>
+            <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+            <div class="box">
+                <ul>
+                    <li class="line"><i class="fas fa-music"></i></li>
+                    <li><ul>
+                        <li> <b>Annual Plan</b> </li>
+                        <li>$59.99/year</li>
+                    </ul></li>
+                    <li class="line"><a href="">Change</a></li>
+                </ul>
+                
+            </div>
+            <button>Proceed to Payment</button>
+            <p>Cancel Order</p>
+        </div>
+    </div>
+</body>
+</html>
